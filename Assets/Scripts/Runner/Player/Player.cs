@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     private void GameOver()
     {
         music.Stop();
-        death.Play();
+        // death.Play();
         gameManager.gameOver = true;
         animator.enabled = false;
     }
