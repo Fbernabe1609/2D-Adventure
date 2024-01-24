@@ -463,7 +463,6 @@ GameObject:
   m_Component:
   - component: {fileID: 152639162}
   - component: {fileID: 152639161}
-  - component: {fileID: 152639160}
   m_Layer: 0
   m_Name: PauseManager
   m_TagString: Untagged
@@ -471,23 +470,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &152639160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152639159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24cf935e0941d0b41961d14fed438c5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  platformA: {fileID: 33914136}
-  platformB: {fileID: 2046308721}
-  speed: 4
-  maxHeight: 20
-  minHeight: -8
 --- !u!114 &152639161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53331,7 +53313,7 @@ MonoBehaviour:
   platformB: {fileID: 2046308721}
   speed: 4
   maxHeight: 20
-  minHeight: -8
+  minHeight: -20
 --- !u!1001 &1785597039
 PrefabInstance:
   m_ObjectHideFlags: 0
