@@ -518,7 +518,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &5889310251690586281
 MonoBehaviour:
@@ -759,13 +759,19 @@ MonoBehaviour:
   velocity: 0
   jumpForce: 0
   score: 0
+  coins: 0
   vulnerable: 0
   dead: 0
   shoot: 0
+  win: 0
   physic: {fileID: 0}
   audio: {fileID: 5768098978932264231}
-  coin: {fileID: 0}
   pause: 0
+  levelsManager: {fileID: 0}
+  winMenu: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  scoreText: {fileID: 0}
+  coinsText: {fileID: 0}
 --- !u!82 &5768098978932264231
 AudioSource:
   m_ObjectHideFlags: 0
